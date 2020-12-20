@@ -1,0 +1,379 @@
+body{
+    /* background: linear-gradient(20deg, #7DB9DE, #8db8d3); */
+
+    background: linear-gradient(180deg,#dbdbdb, #7f7f80 ); 
+    
+    
+    }
+    
+
+    
+
+   .header h2{
+       text-transform: capitalize;
+       font-size:40px;
+       line-height: 1.2em;
+
+       font-family: 'Merriweather', serif;
+       
+       
+       text-align: center;
+       padding-top: 40px;
+       color:rgb(45, 97, 185);
+      
+       font-weight: 900;
+       
+       letter-spacing: 1px;
+       
+
+   }
+   h2{
+    color:rgb(45, 97, 185);
+   }
+  
+   
+    .clearfix{
+            margin: auto;
+            clear: both;
+            display: table;
+
+        }
+
+    
+
+   
+   
+   .header h3{
+       float: left;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       
+       
+   }
+
+   a{
+       text-decoration: none;
+       color:rgb(45, 97, 185);
+       font-weight: bolder;
+       
+       display: inline-block;
+       padding-right: 20px;
+       text-transform: uppercase;
+       letter-spacing: 2px;
+       transition: 1s;
+    
+       
+   }
+
+   
+   
+
+   
+   a:hover{
+       color: rgb(224, 131, 8);
+       font-weight: bolder;
+   }
+
+   .container{
+       margin: 0 10px;
+   }
+       .cover{
+           position: relative;
+           margin-bottom: 20px;
+           cursor: pointer;
+       }
+       .box02, .box03, .box04, .box05, .box06, .box07, .box08, .box09, .box10, .box11, .box12{
+           position: relative;
+           background-color: black;
+           
+       }
+       
+        .img002, .img003, .img004, .img005,.img006, .img007, .img008, .img009, .img010, .img011, .img012    {
+           
+           position: absolute;
+           display: none;
+           top: 0;
+           
+           
+
+       }
+       
+       .top_img_002, .top_img_003, 
+       .top_img_004, .top_img_005, 
+       .top_img_006, .top_img_007,
+       .top_img_008, .top_img_009,
+       .top_img_010, .top_img_011,
+       .top_img_012
+       {
+            width: 100%;
+            height: 100%;
+            
+            
+            background-color: burlywood;
+  
+            
+        }
+
+       .fa-times-circle{
+           position: absolute;
+           color: white;
+           top: 0;
+           right: 0;
+           font-size: 30px;
+           background-color:black;
+           border-radius: 50%;
+           cursor: pointer;
+           
+       }
+       
+
+       .layer{
+           width: 100%;
+           height: 100%;
+           background-color: rgba(0, 0, 0, .8);
+           position: absolute;
+           left: 0;
+           top: 0;
+           text-align: center;
+           color: blanchedalmond;
+           display:flex;
+           align-items:center;
+           justify-content:center;
+           text-transform: uppercase;
+           letter-spacing: 1.5px;
+           font-size: 30px;
+           font-weight: bold;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+       }
+
+
+        img{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 20px 0;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        @media screen  and (min-width: 667px){
+            /* body{
+                margin: 0 20px;
+
+            } */
+            .container{
+                margin: 0 20px;
+            }
+            
+            
+        }
+
+
+        
+    /* 現在在用這裡 */
+
+        @media screen  and (min-width: 768px){
+            
+
+            
+            
+
+            .header h2{
+                padding-top: 60px;
+                font-size: 80px;
+            }
+
+            .header h3{
+                padding: 40px 0;
+            }
+            a{
+                font-size: 40px;
+            }
+
+            .cover{
+                
+                width: 50%;
+                
+                float: left;
+                
+               
+                
+            }
+
+            .img002, .img003  {
+                width: 100%;
+                
+                z-index: 1;
+                background-color: black;
+            }
+
+            
+            
+            .img004, .img005{
+                
+                width: 100%;
+                z-index: 1;
+                top: 300px;
+                background-color: black;
+            }
+
+            .img006, .img007{
+                
+                width: 100%;
+                z-index: 1;
+                top: 600px;
+                background-color: black;
+            }
+
+            .img008, .img009{
+                
+                width: 100%;
+                z-index: 1;
+                top: 900px;
+                background-color: black;
+            }
+            .img010, .img011{
+                
+                width: 100%;
+                z-index: 1;
+                top: 1200px;
+                background-color: black;
+            }
+
+            .img012{
+                
+                width: 100%;
+                z-index: 1;
+                top: 1300px;
+                background-color: black;
+            }
+
+            img{
+                
+                
+                width: 100%;
+
+            }
+            
+             .layer{
+                position: absolute;
+                width: 98%;
+
+                left: 2px;
+                top: 2px;
+            } 
+            .fa-times-circle{
+                
+                font-size: 60px;
+                
+                
+            }
+            
+            
+            
+            
+            
+        }
+        @media screen  and (min-width: 1024px){
+            
+            
+           
+            .header h2{
+                padding-top: 80px;
+                font-size: 100px;
+            }
+
+            .header h3{
+                padding: 40px 0;
+            }
+            a{
+                font-size: 40px;
+            }
+            .layer{
+                position: absolute;
+                width: 99%;
+                height: 100%;
+                left: 2px;
+                top: 1px;
+            }
+            
+            /* 要寫在這裡 */
+            /* .img006,.img007, .img008, .img009{
+
+                top: 600px;
+
+            } */
+            .item{
+                margin:0 60px;
+            }
+            .img012{
+                top: 1500px;
+            }
+            
+            
+
+        
+
+        @media screen  and (min-width: 1200px){
+            
+            body{
+                max-width: 1400px;
+                margin: auto;
+            }
+
+           .item{
+               margin-top: 45px;
+           }
+            a{
+                font-size: 45px;
+            }
+            
+            
+            
+            
+            
+
+            
+            img{  
+                width: 100%;
+            }
+            .cover{
+                width: 25%;
+                height: 100%;
+                float: left;
+            }
+
+            
+
+           
+    /*點出來的樣子 */
+            .img002, .img003,.img004, .img005, .img006,.img007, .img008, .img009,.img010, .img011, .img012{
+                position: absolute;
+                top: -3.5em;
+                
+            
+            }
+            .footer{
+                margin-top: 30px;
+                background-color:transparent;
+                font-size: 30px;
+            }
+
+           
+
+            
+            
+            
+        }
+
+
+
+    }
