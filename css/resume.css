@@ -102,6 +102,14 @@
             text-transform: lowercase;
             font-weight: normal;
            }
+           
+
+           img{
+               width: 5%;
+               padding-right: 10px;
+             
+
+           }
     
            
            .bossley{
@@ -168,6 +176,10 @@
               
                
            }
+          
+
+        
+
            
            /* @media screen  and (min-width: 667px){
 
@@ -265,6 +277,9 @@
             .container{
                 margin: 0 45px;
             }
+
+
+
 
             .header h2{
                 padding-top: 80px;
